@@ -3,7 +3,7 @@ vue源码分析学习
 ****
 ## 目录
 * [Vue的十万个为什么？](#Vue的十万个为什么？)
-  * [为什么this.xxx能访问到data上面的数据？](##为什么thisxxx能访问到data上面的数据)
+  * [为什么this.xxx能访问到data上面的数据？](##为什么this.xxx能访问到data上面的数据？)
 # Vue的十万个为什么？
 ## 为什么this.xxx能访问到data上面的数据？
 我们经常能在mounted或者watch，method等上面写this.xxx就能访问到定义在data上面的数据，其实vue内部做了data数据proxy到当前vm（vm就是vue本身实例）上。   
